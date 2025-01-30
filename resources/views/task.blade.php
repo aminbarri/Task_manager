@@ -10,7 +10,8 @@
             <h4 class="text-center">Task Form</h4>
         </div>
         <div class="card-body">
-            <form action="#" method="POST">
+            <form action="{{ route('addtask') }}" method="POST">
+                @csrf
                 <!-- Title -->
                 <div class="mb-3">
                     <label for="title" class="form-label">Title</label>

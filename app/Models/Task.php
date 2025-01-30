@@ -19,11 +19,8 @@ class Task extends Model
      * @var list<string>
      */
     protected $fillable = [
-        'title',
-        'description',
-        'priority',	
-        'status',
-        'user_id',
+        'title', 'description', 'priority', 'status', 'user_id'
+
     ];
 
     protected $dates = [
